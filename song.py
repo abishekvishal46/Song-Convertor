@@ -7,8 +7,8 @@ from moviepy.editor import VideoFileClip
 from moviepy.editor import AudioFileClip
 def get_playlist_tracks(playlist_id):
     # Initialize Spotipy client
-    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='acec26f255f34fa5aac641be2543defa',
-                                                   client_secret='303c462a132d44f0b14aa053d513fee0',
+    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='YOUR API KEY',
+                                                   client_secret='YOUR CLIENT SECRET ',
                                                    redirect_uri='http://example.com',
                                                    scope='playlist-modify-public'))
 
